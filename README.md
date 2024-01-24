@@ -1,9 +1,7 @@
-# XState Vue TypeScript template
+# The [7 GUIs](https://eugenkiss.github.io/7guis) made with Xstate and Vue.
 
-A starting point template for using XState with Vue and TypeScript. Create a feedback form using a simple state machine.
+[Xstate](https://stately.ai/docs) is a framework for using finite state machines (FSM).
 
-Using [Vite](https://vitejs.dev/) as a build tool and to run the local development server.
+---
 
-## [➡️ Open in CodeSandbox](https://codesandbox.io/p/sandbox/github/statelyai/xstate/tree/main/templates/vue-ts?file=%2Fsrc%2FfeedbackMachine.ts)
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/statelyai/xstate/tree/main/templates/vue-ts?file=%2Fsrc%2FfeedbackMachine.ts)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/tsxoxo/7GUIs-Xstate-Vue--2.Temp_Converter)
