@@ -1,52 +1,74 @@
 *,
 *::before,
 *::after {
-  position: relative;
-  box-sizing: border-box;
+    position: relative;
+    box-sizing: border-box;
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  --color-primary: #056dff;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+body,
+#app,
+.temp-module,
+input,
+label {
+    display: flex;
+    place-content: center;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-content: center;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background: #eaeaea;
+    margin: 0;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background: #9ca58a;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#app {
+    width: 100vw;
+    padding: 18px 32px;
+    gap: 64px;
+    background: #a6af94;
+    border-bottom: 1px solid #a1a39d;
+    box-shadow: 0px -1px #d2d6cc;
+    font-family: monospace;
 }
 
-textarea {
-  display: block;
-  border: 2px solid #eaeaea;
-  border-radius: 0.25rem;
-  margin-bottom: 1rem;
-  width: 100%;
-  padding: 0.5rem;
+.temp-module {
+    flex-direction: column;
+    gap: 12px;
+    padding-block: 18px;
+}
+
+input {
+    border-radius: 9999px;
+    border: none;
+    outline: 12px solid #2b2b29;
+    outline-offset: -12px;
+    font-size: 24px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    font-family: inherit;
+    color: #2b2b29;
+    background: #f6f6ed;
+}
+input:focus {
+    outline: 8px solid #2b2b29;
+    outline-offset: -12px;
+    /* outline-color: rgb(217, 230, 192); */
+}
+label {
+    background: #2b2b29;
+    border-top: 1px solid #cad1c7;
+    padding-block: 8px;
+    color: #f6f6ed;
 }
